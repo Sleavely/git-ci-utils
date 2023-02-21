@@ -2,6 +2,8 @@
 
 Utilities for interacting with Git in CI environments
 
+[ ![npm version](https://img.shields.io/npm/v/git-ci-utils.svg?style=flat) ](https://npmjs.org/package/git-ci-utils "View this project on npm") [ ![Issues](https://img.shields.io/github/issues/Sleavely/git-ci-utils.svg) ](https://github.com/Sleavely/git-ci-utils/issues)
+
 ## Usage
 
 To annotate all the files that have changed, compared to the branch we aim to merge with.
