@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/Sleavely/git-ci-utils/compare/v1.0.1...v1.0.2) (2023-02-21)
+
+
+### Bug Fixes
+
+* rename PullRequestProvider to avoid it being ignored by tsc ([638a8f2](https://github.com/Sleavely/git-ci-utils/commit/638a8f231d2f1bc00b07362679e0e70acd8e0fb1))
+
 ## [1.0.1](https://github.com/Sleavely/git-ci-utils/compare/v1.0.0...v1.0.1) (2023-02-21)
 
 
