@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/Sleavely/git-ci-utils/compare/v1.0.3...v1.1.0) (2023-02-21)
+
+
+### Features
+
+* onlyAddedOrModified filter for getChangedFiles() ([6a00bd9](https://github.com/Sleavely/git-ci-utils/commit/6a00bd93470c6860afb48d119f36d154c5cb6290))
+
+
+### Bug Fixes
+
+* remove unnecessary console.log ([3cd0cbf](https://github.com/Sleavely/git-ci-utils/commit/3cd0cbff8274658f52855145afc0776bacd02a0a))
+
 ## [1.0.3](https://github.com/Sleavely/git-ci-utils/compare/v1.0.2...v1.0.3) (2023-02-21)
 
 
