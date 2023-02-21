@@ -29,6 +29,10 @@ export const getDiffFiles = async (commitOrRange: string): Promise<string[]> => 
   return stdout.split('\n').filter(Boolean)
 }
 
+export const getPositiveDiffFiles = async (commitOrRange: string): Promise<string[]> => {
+  return await getDiffFiles(`--diff-filter=d ${commitOrRange}`)
+}
+
 export const tagExists = async (tagName: string): Promise<boolean> => {
   if (!tagName) throw new Error('No tagName supplied!')
   const stdout = await execute(`git tag -l ${tagName}`)
