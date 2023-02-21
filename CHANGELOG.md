@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.1](https://github.com/Sleavely/git-ci-utils/compare/v1.0.0...v1.0.1) (2023-02-21)
+
+
+### Bug Fixes
+
+* remove reference to `bin` as git-ci-utils has no CLI ([d316a41](https://github.com/Sleavely/git-ci-utils/commit/d316a41e997125e22e6e29cd62d8167ffbfbe030))
+
 ## 1.0.0 (2023-02-21)
 
 
