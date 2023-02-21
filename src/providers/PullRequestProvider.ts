@@ -10,9 +10,9 @@ export interface ReportSummary {
   success: boolean
 }
 
-export class AnnotationReport {
-  addLine (annotation: LineAnnotation): void
-  send (summary: ReportSummary): Promise<unknown>
+export interface AnnotationReport {
+  addLine: (annotation: LineAnnotation) => void
+  send: (summary: ReportSummary) => Promise<unknown>
 }
 
 export default interface PullrequestProvider {
