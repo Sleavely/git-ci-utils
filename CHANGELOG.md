@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.3](https://github.com/Sleavely/git-ci-utils/compare/v1.0.2...v1.0.3) (2023-02-21)
+
+
+### Bug Fixes
+
+* use correct path to index.js ([9b9afd3](https://github.com/Sleavely/git-ci-utils/commit/9b9afd3f84d2469b57ceba03241ff64772a65b2b))
+
 ## [1.0.2](https://github.com/Sleavely/git-ci-utils/compare/v1.0.1...v1.0.2) (2023-02-21)
 
 
