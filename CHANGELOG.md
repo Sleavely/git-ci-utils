@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/Sleavely/git-ci-utils/compare/v1.1.1...v1.1.2) (2023-03-02)
+
+
+### Bug Fixes
+
+* include failing command in error messages when exec fails ([8f9f804](https://github.com/Sleavely/git-ci-utils/commit/8f9f804341ff2c905417bd2abbbad459aea0a37f))
+
 ## [1.1.1](https://github.com/Sleavely/git-ci-utils/compare/v1.1.0...v1.1.1) (2023-03-02)
 
 
