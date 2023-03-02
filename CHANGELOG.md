@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/Sleavely/git-ci-utils/compare/v1.1.0...v1.1.1) (2023-03-02)
+
+
+### Bug Fixes
+
+* **bitbucket:** fetch destination branch prior to diffing ([8318ce1](https://github.com/Sleavely/git-ci-utils/commit/8318ce18406c2ab172d52e8b5e6a24f68f4cc7b2)), closes [#6](https://github.com/Sleavely/git-ci-utils/issues/6)
+
 ## [1.1.0](https://github.com/Sleavely/git-ci-utils/compare/v1.0.3...v1.1.0) (2023-02-21)
 
 
