@@ -8,7 +8,7 @@ export const getChangedFiles = async (onlyAddedOrModified = false): Promise<stri
   const prProvider = getPullrequest()
 
   // make sure the branch we want to diff against is there
-  if (prProvider.name === 'bitbucket') {
+  if (prProvider.name === 'Bitbucket') {
     await fetch(`${prProvider.destinationBranch}:${prProvider.destinationBranch}`)
   }
 
