@@ -39,6 +39,8 @@ class LocalhostAnnotationReporter implements AnnotationReport {
 }
 
 const localhost: PullrequestProvider = {
+  name: 'localhost',
+
   get repository () {
     return basename(process.cwd())
   },

@@ -17,6 +17,12 @@ export interface AnnotationReport {
 
 export default interface PullrequestProvider {
   /**
+   * Name of the provider
+   * @example Bitbucket
+   */
+  name: string
+
+  /**
    * @example user/repo-name
    */
   repository: string

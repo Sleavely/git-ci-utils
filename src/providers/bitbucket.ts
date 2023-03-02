@@ -14,6 +14,8 @@ const {
 } = process.env
 
 const bitbucket: PullrequestProvider = {
+  name: 'Bitbucket',
+
   get repository () {
     return BITBUCKET_REPO_FULL_NAME
   },

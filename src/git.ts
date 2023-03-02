@@ -15,6 +15,8 @@ export const resolveCommits = async (path: string, commitOrRange: string): Promi
   return commits
 }
 
+/* Diffs */
+
 /**
  * @param commitOrRange
  * @returns Lines that have been added or modified since commitOrRange
@@ -32,6 +34,15 @@ export const getDiffFiles = async (commitOrRange: string): Promise<string[]> => 
 export const getPositiveDiffFiles = async (commitOrRange: string): Promise<string[]> => {
   return await getDiffFiles(`--diff-filter=d ${commitOrRange}`)
 }
+
+/* Remotes */
+
+export const fetch = async (refspec: string, remote: string = 'origin'): Promise<string> => {
+  const stdout = await execute(`git fetch ${remote} "${refspec}"`)
+  return stdout
+}
+
+/* Tags */
 
 export const tagExists = async (tagName: string): Promise<boolean> => {
   if (!tagName) throw new Error('No tagName supplied!')

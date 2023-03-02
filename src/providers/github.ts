@@ -33,6 +33,8 @@ class GithubAnnotationReporter implements AnnotationReport {
 }
 
 const github: PullrequestProvider = {
+  name: 'Github',
+
   get repository () {
     return GITHUB_REPOSITORY
   },
