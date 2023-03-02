@@ -38,6 +38,18 @@ Because many of the environment variables that exist in a CI environment are goi
 
 Because there is no environment variable that tells git-ci-utils where you intend to merge your work later, it assumes the target branch is either `main` or `master`. It determines which to use by looking at your list of remote branches on `origin`.
 
+### Environment variables
+
+_git-ci-utils_ makes use of many environment variables for the PR providers, but there are a few you may want to tweak in some scenarios:
+
+#### `DEBUG`
+
+Set to `*` or `git-ci-utils:*` to enable verbose output for debugging. _git-ci-utils_ uses [_debug_](https://github.com/debug-js/debug)
+
+#### `MAX_EXEC_BUFFER_MB`
+
+The size of the buffer that holds output from shell commands. Normally you shouldn't have to change this value. The default is `10`.
+
 ## Similar projects and inspiration
 
 Bitbucket-specific
