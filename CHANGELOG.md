@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/Sleavely/git-ci-utils/compare/v1.1.2...v1.2.0) (2023-03-02)
+
+
+### Features
+
+* support DEBUG environment variable ([fc547ff](https://github.com/Sleavely/git-ci-utils/commit/fc547ff7b6293d604714012d85d8d0157e211fd5))
+
+
+### Bug Fixes
+
+* use correct casing when checking for Bitbucket provider ([b412672](https://github.com/Sleavely/git-ci-utils/commit/b4126725392567d3cfde6b0d1aad5cbf7622b6f5))
+
 ## [1.1.2](https://github.com/Sleavely/git-ci-utils/compare/v1.1.1...v1.1.2) (2023-03-02)
 
 
